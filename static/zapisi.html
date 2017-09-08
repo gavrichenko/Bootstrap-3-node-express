@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+	<html lang="ru">
+		<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Bootstrap Template</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+	</head>
+	
+	<body>
+	<!-- шапка навигации -->
+	<div class="navbar navbar-default navbar-inverse navbar-static-top"> 
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ololoIdMenu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="ololoIdMenu">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Item 1</a></li>
+					<!-- выпадашка в меню -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Item 2<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">drop-item 1</a></li>
+							<li><a href="#">drop-item 2</a></li>
+							<li><a href="#">drop-item 3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">drop-item 4</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Item 3</a></li>
+					<li><a href="#">Item 4</a></li>
+				</ul>
+				
+				<!-- Форма авторизации -->
+				<form action="" class="navbar-form navbar-right">
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="E-mail LOL" value="">
+					</div>
+					<div class="form-group">				
+						<input class="form-control" type="password" placeholder="Password KEK" value="">
+					</div>
+						<button type="submit" class="btn btn-primary">
+							<i class="fa fa-sign-in"></i> LOG IN
+						</button>
+				</form>
+				
+			</div>
+		</div>
+	</div> 
+	
+	
+	<!-- Вкладки -->
+	<div class="container">
+		<div class="row">
+		
+			<!-- хлебные крошки -->
+			<div class="container">
+				<ol class="breadcrumb">
+					<li>
+						<a href="#">
+							<i class="fa fa-home"></i>
+						</a>
+					</li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Category</a></li>
+					<li class="active">Name Post</li>
+				
+				</ol>
+			</div>
+		
+			
+			
+			<div class="container">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#">Element 1<span class="badge">18</span></a>
+					</li>
+					<li>
+						<a href="#">Element 2<span class="badge">12</span></a></a>
+					</li>
+					<li>
+						<a href="#">Element 3<span class="badge">28</span></a></a>
+					</li>
+					<li>
+						<a href="#">Element 4<span class="badge">38</span></a></a>
+					</li>
+				</ul>
+			</div> 
+		</div> 
+		
+	<!-- картинки со статьями + сетка masonry	 -->
+		<div class="row masonry" data-columns>
+		
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consecLorem ipsLorem ipsum dolor sit amet, consecLoLorem ipsum dolor sit amet, consecLoremLorem ipsum dolor sit amet, consecLoremremLorem ipsum dolor sit amet, consecLoremum dolor sit amet, consLorem ipsum dolor sit amet, constetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 
+				</div> 
+			</div>
+			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 		
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 
+				</div> 
+			</div> 
+			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 	
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consectetuer adipiscingLorem ipsum dolor sit amet, consectetuer adipiscingectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 
+			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 	
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 
+			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 			
+			<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+			<div class="item">
+				<div class="thumbnail">
+					<img src="http://via.placeholder.com/300x240" alt="ololo"> 
+					<div class="caption">
+						<h3><a href="#">Name post</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>
+						<a href="#" class="btn btn-success">Read more <i class="fa fa-arrow-right"></i></a>
+					</div> 					
+				</div> 
+			</div> 			
+		
+		</div> 
+		
+		<!-- пагинация -->
+		<nav class="text-center">
+			<ul class="pagination pagination-sm">
+				<li>
+					<a href="#">
+						<i class="fa fa-chevron-left"></i>
+						<i class="fa fa-chevron-left"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa fa-chevron-left"></i>
+					</a>
+				</li>
+				<li class="active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li>
+					<a href="#">
+						<i class="fa fa-chevron-right"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa fa-chevron-right"></i>
+						<i class="fa fa-chevron-right"></i>
+					</a>
+				</li>
+			</ul>	
+		</nav>
+
+		<nav>
+			<ul class="pager">
+				<li class="previous"><a href="#">&larr; Previous</a></li>		
+				<li class="next"><a href="#">Next &rarr;</a></li>
+			</ul>				
+	</div> 
+
+	<!-- Футер -->
+	<div class="container text-center">
+		<hr />
+	  <div class="row">
+		<div class="col-lg-12">
+		  <div class="col-md-3">
+			<ul class="nav nav-pills nav-stacked">
+			  <li><a href="#">About us</a></li>
+			  <li><a href="#">Blog</a></li>
+			</ul>
+		  </div>
+		  <div class="col-md-3">
+			<ul class="nav nav-pills nav-stacked">
+			  <li><a href="#">Product for Mac</a></li>
+			  <li><a href="#">Product for Windows</a></li>
+			</ul>
+		  </div>
+		  <div class="col-md-3">
+			<ul class="nav nav-pills nav-stacked">
+			  <li><a href="#">Web analytics</a></li>
+			  <li><a href="#">Presentations</a></li>          
+			</ul>
+		  </div>
+		  <div class="col-md-3">
+			<ul class="nav nav-pills nav-stacked">
+			  <li><a href="#">Product Help</a></li>
+			  <li><a href="#">Developer API</a></li>
+			</ul>
+		  </div>  
+		</div>
+	  </div>
+	  <hr>
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="/">© 2013 Company Name.</a></li>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/salvattore.min.js"></script>
+		<script src="js/myJS.js"></script>
+	</body>
+	
+	
+	</html>

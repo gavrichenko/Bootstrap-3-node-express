@@ -1,0 +1,59 @@
+
+/* Иконка */
+i {
+	font-size:300%
+}
+
+
+/* стили для спойлера */
+
+a.spoiler.collapsed:after{
+	content:" [+]";
+}
+
+a.spoiler:after{
+	content:" [-]";	
+}
+
+.nav-tabs{
+	margin-bottom: 15px
+}
+
+.breadcrumb > li + li:before {
+    content: "\f101";
+    font-family: "FontAwesome";
+}
+
+@media screen and (max-width: 767px) {
+	.masonry[data-columns]::before {
+		content: '1 .col-xs-12';
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.masonry[data-columns]::before {
+		content: '2 .col-xs-6';
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.masonry[data-columns]::before {
+		content: '3 .col-xs-4';
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.masonry[data-columns]::before {
+		content: '3 .col-xs-4';
+	}
+}
+
+/* /* для формы авторизации при малом разрешении */ */
+/* @media screen and (min-width: 768px) and (max-width: 992px) { */
+    /* .navbar-form, .form-control{ */
+        /* width: 280px !important; */
+        /* float: left!important; */
+    /* } */
+    /* .form-control{margin-bottom: 4px;} */
+/* }﻿ */
+
