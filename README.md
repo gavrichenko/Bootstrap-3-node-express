@@ -3,7 +3,7 @@
 # Hi there!
   Was used:
   - Node.js express
-  - Bootstrap
+  - Bootstrap 3
 ### Initialization
 ```sh
 $ npm i
